@@ -20,29 +20,6 @@ Google Gemini Chatbot is a web-based AI chatbot powered by Google's Gemini API. 
 - **API**: Google Gemini API  
 - **Deployment**: Vercel  
 
-## 🚀 Getting Started  
-
-### 1️⃣ Clone the repository  
-```bash
-git clone https://github.com/your-username/google-gemini-chatbot.git
-cd google-gemini-chatbot
-```
-
-### 2️⃣ Install dependencies  
-```bash
-npm install
-```
-
-### 3️⃣ Set up environment variables  
-Create a `.env` file in the root directory and add your Google Gemini API key:  
-```
-GEMINI_API_KEY=your_api_key_here
-```
-
-### 4️⃣ Run the project  
-```bash
-npm start
-```
 
 ## 📌 Future Improvements  
 
