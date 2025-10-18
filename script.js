@@ -8,8 +8,8 @@ const deleteChatButton = document.querySelector("#delete-chat-button");
 let userMessage = null;
 let isResponseGenerating = false;
 
-const API_KEY = "AIzaSyC7ZLHH-vwHesEts2hcB17jWHKxX4wyqmI";
-const API_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent?key=${API_KEY}`;
+const apiKey = process.env.API_KEY;
+const apiUrl = `https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent?key=${apiKey}`;
 
 const loadDataFromLocalstorage = () => {
   const savedChats = localStorage.getItem("saved-chats");
